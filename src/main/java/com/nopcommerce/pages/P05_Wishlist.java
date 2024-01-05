@@ -70,9 +70,5 @@ private final By checkOutAsaguestLocator=By.cssSelector("button[class=\"button-1
     public void  confirm(){driver.findElement(By.cssSelector("button[class=\"button-1 confirm-order-next-step-button\"]")).click();}
     public String successMassege(){return (driver.findElement(By.cssSelector("div[class=\"section order-completed\"] div[class=\"title\"]")).getText());}
 
-
-
-
-
 }
 

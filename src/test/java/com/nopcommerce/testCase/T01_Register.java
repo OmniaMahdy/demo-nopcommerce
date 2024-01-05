@@ -36,11 +36,10 @@ public class T01_Register extends BaseTest {
     register.userEnterFirstName("Omnia");
     register.userEnterLastName("Mahdy");
     register.generateRandomDateOfBirth();
-    register.email("omniamahdy511@gmail.com");
+    register.email("omniamahdy357@gmail.com");
     register.password("Benzema999");
     register.confirmedPassword("Benzema999");
     register.register();
-
 
     Assert.assertTrue( register.successMassage().equals("Your registration completed"));
 
